@@ -4822,6 +4822,31 @@ body.megamenu-popup-active .mobile-nav__content {
 .funfact-one__funfact__item:hover .funfact-one__funfact__item__icon i {
   animation: bounceIn 1s linear;
 }
+.contact-bottom__list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-bottom__list__item__icon {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.contact-bottom__list__item__text {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .contact-bottom__list__item__content {
+        flex: 1 1 auto;
+    }
+
+    .contact-bottom__list__item__text a {
+        word-break: break-all;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
