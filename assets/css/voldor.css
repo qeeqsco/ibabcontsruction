@@ -597,7 +597,7 @@ p {
   opacity: 0;
   visibility: hidden;
   transform: rotate(-90deg);
-  cursor: pointer;
+    ;
   transition: all 0.2s ease;
 }
 .scroll-to-top__text {
@@ -1188,7 +1188,7 @@ p {
   align-items: center;
   color: var(--voldor-white, #fff);
   font-size: 17px;
-  cursor: pointer;
+    ;
   transition: all 0.4s ease-in-out;
 }
 .team-card__content__hover__icon:hover {
@@ -1556,7 +1556,7 @@ p {
 .team-skills-one__certificates__item {
   max-width: 176px;
   width: 100%;
-  cursor: pointer;
+    ;
 }
 .team-skills-one__certificates__item img {
   object-fit: cover;
@@ -3622,7 +3622,7 @@ p {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  cursor: pointer;
+    ;
   z-index: 3;
 }
 @media (max-width: 1199px) {
@@ -4049,6 +4049,31 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 0;
   margin-top: 15px;
   padding-bottom: 15px;
+}
+
+.contact-bottom__list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-bottom__list__item__icon {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.contact-bottom__list__item__text {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-bottom__list__item__content {
+      flex: 1 1 auto;
+  }
+
+  .contact-bottom__list__item__text a {
+      word-break: break-all;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4822,31 +4847,6 @@ body.megamenu-popup-active .mobile-nav__content {
 .funfact-one__funfact__item:hover .funfact-one__funfact__item__icon i {
   animation: bounceIn 1s linear;
 }
-.contact-bottom__list__item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.contact-bottom__list__item__icon {
-    flex: 0 0 auto;
-    margin-right: 10px;
-}
-
-.contact-bottom__list__item__text {
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    .contact-bottom__list__item__content {
-        flex: 1 1 auto;
-    }
-
-    .contact-bottom__list__item__text a {
-        word-break: break-all;
-    }
-}
-
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -5508,9 +5508,7 @@ body.megamenu-popup-active .mobile-nav__content {
   flex-wrap: wrap;
   gap: 10px;
 }
-.gallery-one__filter__list li {
-  cursor: pointer;
-}
+
 .gallery-one__filter__list li span {
   display: block;
   font-size: 14px;
@@ -6436,7 +6434,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border-radius: 50%;
   margin-left: -3px;
   outline: medium none;
-  cursor: pointer;
+    ;
   z-index: 2;
 }
 .product__price-ranger .ranger-min-max-block {
@@ -6475,7 +6473,7 @@ body.megamenu-popup-active .mobile-nav__content {
   text-align: center;
   border: none;
   margin: 0;
-  cursor: pointer;
+    ;
   padding: 0px 16px;
   height: 40px;
   font-size: 14px;
@@ -7699,7 +7697,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 15px;
   line-height: 24px;
   text-transform: none;
-  cursor: pointer;
+    ;
 }
 .checkout-page__check-box label span:before {
   position: absolute;
@@ -7726,7 +7724,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border-radius: 50%;
   border: none;
   vertical-align: middle;
-  cursor: pointer;
+    ;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -7755,7 +7753,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .checkout-page__details__check-box label {
   position: relative;
   padding-left: 30px;
-  cursor: pointer;
+    ;
   color: var(--voldor-text, #797577);
   font-size: 20px;
   font-style: normal;
@@ -7773,7 +7771,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border-radius: 50%;
   border: none;
   vertical-align: middle;
-  cursor: pointer;
+    ;
   transition: all 300ms ease;
 }
 .checkout-page__details__check-box label span::before {
@@ -7895,7 +7893,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   margin-bottom: 28px;
   text-transform: uppercase;
-  cursor: pointer;
+    ;
   font-weight: 700;
 }
 .checkout-page__payment__title::before {
@@ -8087,7 +8085,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-right: 0px;
   margin-bottom: 0;
   text-transform: none;
-  cursor: pointer;
+    ;
   font-size: 16px;
   font-weight: 600;
 }
@@ -8119,7 +8117,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 20px;
   vertical-align: middle;
   background: transparent;
-  cursor: pointer;
+    ;
   transition: all 300ms ease;
   border: 1px solid var(--voldor-gray, #E6E0D8);
 }
@@ -8307,7 +8305,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .faq-page__accordion .accrodion-title {
   padding: 25px 30px 18px 30px;
   padding-right: 65px;
-  cursor: pointer;
+    ;
 }
 .faq-page__accordion .accrodion-title__text {
   position: relative;
@@ -9117,7 +9115,7 @@ body.megamenu-popup-active .mobile-nav__content {
   right: 15px;
   font-size: 18px;
   color: var(--voldor-white, #fff);
-  cursor: pointer;
+    ;
 }
 .mobile-nav__close:hover {
   color: var(--voldor-base, #AE8F62);
@@ -9735,7 +9733,7 @@ body.megamenu-popup-active .mobile-nav__content {
   max-width: 100%;
   width: auto !important;
   filter: grayscale(80%);
-  cursor: pointer;
+    ;
 }
 .client-carousel-three .client-carousel__one__item:hover img {
   opacity: 1;
@@ -12720,7 +12718,7 @@ body.boxed-wrapper .hero-one__thumb {
   position: absolute;
   left: 0;
   top: 0;
-  cursor: pointer;
+    ;
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
