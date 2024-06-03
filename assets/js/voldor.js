@@ -294,7 +294,7 @@
       let self = $(this);
       let toggleBtn = document.createElement("BUTTON");
       toggleBtn.setAttribute("aria-label", "dropdown toggler");
-      toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
+      toggleBtn.innerHTML = "<i class='bi bi-arrow-down'></i>";
       self.append(function () {
         return toggleBtn;
       });
