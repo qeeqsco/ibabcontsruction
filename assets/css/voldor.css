@@ -2734,8 +2734,24 @@ p {
   color: var(--voldor-text-gray, #958F91);
   font-size: 14px;
   font-weight: 500;
-  line-height: 214.286%;
+  line-height: 1.5; /* Standard line-height */
   margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-widget__text-row {
+  display: block;
+  margin-top: 5px; /* Adjust as needed for spacing */
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .footer-widget__text {
+    font-size: 12px; /* Adjust font size for mobile */
+    margin-bottom: 20px; /* Adjust margin-bottom for mobile */
+  }
 }
 .footer-widget__links {
   margin-top: -9px;
